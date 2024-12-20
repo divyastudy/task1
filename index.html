@@ -4,8 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+        .container{
+            background-color: green;
+            display: grid;
+            grid-gap: 10px;
+        }
+        .header{
+            background-color: yellow;
+            grid-column: span 4;
+            text-align: center;
+            grid-row: span 10;
+        }
+        .section1{
+            background-color: orange);
+            grid-row: span 50;
+            text-align: center;
+        }
+        .section2{
+            background-color: blueviolet;
+            grid-row: span 50;
+            text-align: center;
+        }
+        .section3{
+            background-color: brown;
+            grid-row: span 50;
+            text-align: center;
+        }
+        .section4{
+            background-color: blue;
+            grid-row: span 50;
+            text-align: center;
+        }
+        .footer{
+            background-color:crimson;
+            grid-column: span 4;
+            grid-row: span 10;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <p>welcome</p>
+    <div class="container">
+        <div class="header">Header</div>
+        <div class="section1">section1</div>
+        <div class="section2">section1</div>
+        <div class="section3">section1</div>
+        <div class="section4">section1</div>
+        <div class="footer">Footer</div>
+    </div>
 </body>
 </html>
